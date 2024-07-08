@@ -1,4 +1,4 @@
-from extract_print_info import read_resume, extract_information  # Import the required functions
+from extract_info import read_resume, extract_information  # Import the required functions
 
 def main():
     # Load the resume text from a file
