@@ -5,7 +5,7 @@ def main():
     resume_text = read_resume('resume.txt')
     # Your OpenAI API key, securely manage this key
     api_key = 'your_openai_api_key_here'
-    # Extract the detailed information using OpenAI
+    # Ext   `ract the detailed information using OpenAI
     extracted_info = extract_information(resume_text, api_key)
     
     # Print the structured information extracted from the resume
